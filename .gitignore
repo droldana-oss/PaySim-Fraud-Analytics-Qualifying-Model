@@ -14,12 +14,6 @@ data/raw/*.csv
 !data/raw/.gitkeep
 
 # Modelos y salidas generadas localmente
-models/*.pkl
-models/*.joblib
-data/processed/*.csv
-data/outputs/*.csv
-data/outputs/*.json
-
 # OS
 .DS_Store
 Thumbs.db

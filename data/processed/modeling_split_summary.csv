@@ -1,0 +1,4 @@
+periodo,transacciones,fraudes,tasa_fraude_pct,step_min,step_max
+train,4463587,3643,0.0816,1,323
+validation,980416,564,0.0575,324,378
+test,918617,4006,0.4361,379,743

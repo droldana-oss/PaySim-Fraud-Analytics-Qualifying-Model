@@ -1,0 +1,7 @@
+{
+  "model": "RandomForestClassifier",
+  "threshold_selected_on_validation": 0.8584981652808931,
+  "train_rows_sampled": 76503,
+  "validation_rows_full": 980416,
+  "feature_count_before_encoding": 13
+}
