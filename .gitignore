@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos grandes (mantener symlink en repo; no duplicar copias)
+/PS_*.csv
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# Modelos y salidas generadas localmente
+models/*.pkl
+models/*.joblib
+data/processed/*.csv
+data/outputs/*.csv
+data/outputs/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+.cursor

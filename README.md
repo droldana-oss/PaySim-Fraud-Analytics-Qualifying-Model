@@ -244,5 +244,4 @@ python -m nbconvert --execute --to notebook --inplace notebooks/06_model_evaluat
 El proyecto muestra que un problema de fraude no debe evaluarse solo por cantidad de casos: aunque el fraude es minoritario, concentra montos relevantes y patrones identificables. El análisis reveló concentración en `TRANSFER` y `CASH_OUT`, mayor exposición en operaciones de alto valor y una cobertura muy baja de la alerta original.
 
 Como extensión del análisis, el Random Forest construido mejora ampliamente la priorización sobre el periodo temporal reservado de PaySim. Sin embargo, la conclusión correcta no es que exista un modelo listo para producción, sino que el flujo aplicado permite pasar de preguntas de negocio a una evaluación predictiva reproducible, interpretable y documentada con límites claros.
-# PaySim-Fraud-Analytics-Qualifying-Model
-# PaySim-Fraud-Analytics-Qualifying-Model
+
