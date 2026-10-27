@@ -83,6 +83,26 @@ El umbral de clasificación (`0,858498`) fue seleccionado exclusivamente en vali
 
 El reporte completo se encuentra en [reports/model_evaluation_report.md](reports/model_evaluation_report.md).
 
+## Dashboards de Power BI
+
+El informe integra el resumen del fraude financiero, los patrones de riesgo y la evaluación del modelo Random Forest sobre PaySim.
+
+### Resumen del fraude financiero
+
+![Dashboard de Power BI con indicadores e impacto económico del fraude](images/dashboards/fraude1.jpeg)
+
+### Patrones y señales de riesgo
+
+![Dashboard de patrones de fraude por tipo de transacción y rango de monto](images/dashboards/fraude2.jpeg)
+
+### Evaluación del modelo de IA
+
+![Dashboard de métricas, matriz de confusión y comparación con la alerta original](images/dashboards/fraude3.jpeg)
+
+El archivo editable está disponible en [dashboards/PaySim-Fraud-Analytics.pbix](dashboards/PaySim-Fraud-Analytics.pbix). Descárgalo y ábrelo con Power BI Desktop. Para actualizar los datos, ajusta las rutas de origen a los archivos de tu entorno; las capturas permiten revisar el informe sin instalar Power BI.
+
+Los indicadores corresponden a datos sintéticos y a una evaluación temporal post-transacción; sus límites se detallan en los reportes y en la sección de limitaciones.
+
 ## Visualizaciones Generadas
 
 ### Parte 1: Análisis Exploratorio
@@ -145,6 +165,7 @@ Se excluyeron como entradas:
 │   ├── raw/                 # Ubicación esperada del CSV local, no versionado
 │   ├── processed/           # Salidas derivadas locales, no versionadas
 │   └── outputs/             # Metadatos generados localmente, no versionados
+├── dashboards/              # Informe editable de Power BI
 ├── images/                  # Gráficos incluidos en el repositorio
 ├── models/                  # Modelo entrenado local, no versionado
 ├── notebooks/               # Desarrollo narrativo y ejecutable
